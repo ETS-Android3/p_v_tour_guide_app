@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:id="@+id/detail_visit_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Place Image-->
+            <ImageView
+                android:id="@+id/detail_item_image"
+                style="@style/ImageStyle"
+                android:contentDescription="@string/description_image"
+                tools:src="@drawable/places_to_visit_akshardham_temple" />
+
+            <!--Contains Metro, Hospital and Station Chips-->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_default">
+
+                <LinearLayout
+                    style="@style/BasicItemMainStyle"
+                    android:padding="@dimen/padding_small">
+
+                    <!--Chip Metro-->
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/detail_item_chip_metro"
+                        style="@style/ChipStyle"
+                        android:text="@string/chip_metro"
+                        app:chipBackgroundColor="@color/colorMetro"
+                        app:chipIcon="@drawable/ic_metro" />
+
+                    <!--Chip Hospital-->
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/detail_item_chip_hospital"
+                        style="@style/ChipStyle"
+                        android:layout_marginHorizontal="@dimen/margin_small"
+                        android:text="@string/chip_hospital"
+                        app:chipBackgroundColor="@color/colorHospital"
+                        app:chipIcon="@drawable/ic_hospital" />
+
+                    <!--Chip Station-->
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/detail_item_chip_station"
+                        style="@style/ChipStyle"
+                        android:text="@string/chip_police"
+                        android:textColor="@android:color/black"
+                        app:chipBackgroundColor="@color/colorPolice"
+                        app:chipIcon="@drawable/ic_police"
+                        app:chipIconTint="@android:color/black"
+                        app:iconStartPadding="@dimen/margin_small" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <!--Place Detail-->
+            <TextView
+                android:id="@+id/detail_item_detail"
+                style="@style/DescriptionDetailStyle"
+                android:layout_marginStart="@dimen/margin_small"
+                android:textSize="@dimen/text_size_title_mini"
+                tools:text="@string/detail_place_akshardham_temple" />
+
+            <LinearLayout
+                android:id="@+id/detail_layout_container"
+                style="@style/LinearLayoutVerticalStyle"
+                android:layout_marginHorizontal="@dimen/margin_default"
+                android:layout_marginBottom="@dimen/margin_default"
+                android:background="@drawable/shape_rectangle"
+                android:padding="@dimen/padding_default">
+
+                <!--Label Timings-->
+                <TextView
+                    android:id="@+id/detail_label_timings"
+                    style="@style/ExtraDetailsMainStyle"
+                    android:text="@string/label_timings"
+                    app:drawableEndCompat="@drawable/ic_clock" />
+
+                <!--Place Timings-->
+                <TextView
+                    android:id="@+id/detail_timings"
+                    style="@style/BasicItemMainStyle"
+                    android:layout_marginTop="@dimen/margin_mini"
+                    tools:text="@string/timings_akshardham_temple" />
+
+                <!--Label Entry Fee-->
+                <TextView
+                    android:id="@+id/detail_label_entry_fee"
+                    style="@style/ExtraDetailsMainStyle"
+                    android:layout_marginTop="@dimen/margin_default"
+                    android:text="@string/label_entry_fee"
+                    app:drawableEndCompat="@drawable/ic_fee" />
+
+                <!--Place Entry Fee-->
+                <TextView
+                    android:id="@+id/detail_fee"
+                    style="@style/BasicItemMainStyle"
+                    android:layout_marginTop="@dimen/margin_mini"
+                    tools:text="@string/entry_fee_akshardham_temple" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--Place under "Places To Eat" and "Night Life" Category.-->
+    <ListView
+        android:id="@+id/detail_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+        android:visibility="gone" />
+
+    <!--Toolbar-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/detail_visit_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient_toolbar"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:titleTextColor="@color/colorText"
+        tools:title="@string/title_place_akshardham_temple" />
+
+</RelativeLayout>

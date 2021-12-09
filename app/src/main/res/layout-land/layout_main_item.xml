@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BasicItemMainStyle">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/LinearLayoutVerticalStyle"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_default"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:rippleColor="@color/colorSelector">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Place Image-->
+            <ImageView
+                android:id="@+id/item_main_image"
+                android:layout_width="@dimen/zero_space"
+                android:layout_height="match_parent"
+                android:layout_weight="@integer/layout_weight_image"
+                android:contentDescription="@string/description_image"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/places_to_visit_akshardham_temple" />
+
+            <!--Contains Place basic info.-->
+            <LinearLayout
+                android:layout_width="@dimen/zero_space"
+                android:layout_height="wrap_content"
+                android:layout_weight="@fraction/layout_weight_container"
+                android:orientation="vertical">
+
+                <!--Place Title-->
+                <TextView
+                    android:id="@+id/item_main_title"
+                    style="@style/TitleStyle"
+                    tools:text="@string/title_place_akshardham_temple" />
+
+                <!--Place Detail-->
+                <TextView
+                    android:id="@+id/item_main_detail"
+                    style="@style/DescriptionMainStyle"
+                    tools:text="@string/detail_place_akshardham_temple" />
+
+                <!--Contains Timings and Entry Fee info.-->
+                <LinearLayout
+                    android:id="@+id/main_layout_container"
+                    style="@style/LinearLayoutVerticalStyle"
+                    android:layout_marginHorizontal="@dimen/margin_default"
+                    android:layout_marginBottom="@dimen/margin_default"
+                    android:background="@drawable/shape_rectangle"
+                    android:padding="@dimen/padding_default">
+
+                    <!--Label Timings-->
+                    <TextView
+                        android:id="@+id/item_main_label_timings"
+                        style="@style/ExtraDetailsMainStyle"
+                        android:text="@string/label_timings"
+                        app:drawableEndCompat="@drawable/ic_clock" />
+
+                    <!--Place Timings-->
+                    <TextView
+                        android:id="@+id/item_main_timings"
+                        style="@style/TimingsEntryFeeMainStyle"
+                        tools:text="@string/timings_akshardham_temple" />
+
+                    <!--Label Entry Fee-->
+                    <TextView
+                        android:id="@+id/item_main_label_entry_fee"
+                        style="@style/ExtraDetailsMainStyle"
+                        android:layout_marginTop="@dimen/margin_default"
+                        android:text="@string/label_entry_fee"
+                        app:drawableEndCompat="@drawable/ic_fee" />
+
+                    <!--Place Entry Fee-->
+                    <TextView
+                        android:id="@+id/item_main_fee"
+                        style="@style/TimingsEntryFeeMainStyle"
+                        tools:text="@string/entry_fee_akshardham_temple" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

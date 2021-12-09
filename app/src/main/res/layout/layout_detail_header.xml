@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--Place Image-->
+    <ImageView
+        android:id="@+id/header_detail_item_image"
+        style="@style/ImageStyle"
+        android:contentDescription="@string/description_image"
+        tools:src="@drawable/places_to_visit_akshardham_temple" />
+
+    <!--Place Detail-->
+    <TextView
+        android:id="@+id/header_detail_item_detail"
+        style="@style/DescriptionDetailStyle"
+        android:layout_marginStart="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        android:textSize="@dimen/text_size_title_mini"
+        tools:ellipsize="end"
+        tools:maxLines="10"
+        tools:text="@string/detail_place_akshardham_temple" />
+
+    <!--Label Location-->
+    <TextView
+        style="@style/TitleStyle"
+        android:layout_marginStart="@dimen/margin_default"
+        android:paddingTop="@dimen/zero_space"
+        android:textSize="24sp"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:text="@string/detail_label_location" />
+
+</LinearLayout>

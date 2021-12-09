@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_lines">7</integer>
+    <integer name="data_not_available">-123</integer>
+    <integer name="layout_weight_image">1</integer>
+</resources>

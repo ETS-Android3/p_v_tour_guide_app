@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--Contains names of all Fragments-->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_drawer_visit"
+            android:icon="@drawable/ic_visit"
+            android:title="@string/title_category_visit" />
+
+        <item
+            android:id="@+id/item_drawer_eat"
+            android:icon="@drawable/ic_eat"
+            android:title="@string/title_category_eat" />
+
+        <item
+            android:id="@+id/item_drawer_night_life"
+            android:icon="@drawable/ic_night"
+            android:title="@string/title_category_night_life" />
+
+        <item
+            android:id="@+id/item_drawer_travel"
+            android:icon="@drawable/ic_travel"
+            android:title="@string/title_category_travel" />
+
+    </group>
+
+</menu>

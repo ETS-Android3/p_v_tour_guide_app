@@ -1,0 +1,797 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <string name="data_uri_scheme">geo:0,0?q=</string>
+    <string name="plus">+</string>
+    <string name="delimiter">&#160;</string>
+
+    <!--Navigation Drawer-->
+    <string name="title_category_visit">Visit</string>
+    <string name="title_category_eat">Eat</string>
+    <string name="title_category_night_life">Night Life</string>
+    <string name="title_category_travel">Travel</string>
+    <string name="header_place">Delhi</string>
+
+    <!--Detail Screen-->
+    <string name="detail_label_location">Location</string>
+    <string name="label_popular">Popular</string>
+    <string name="label_cost">Average Cost</string>
+    <string name="toast_app_not_available">No Maps app found on your device.</string>
+    <string name="chip_metro">Metro</string>
+    <string name="chip_hospital">Hospital</string>
+    <string name="chip_police">Station</string>
+
+    <!--Layout Main Item-->
+    <string name="description_image">Place</string>
+    <string name="label_timings">Timings</string>
+    <string name="label_entry_fee">Entry Fee</string>
+    <string name="category_visit">Places To Visit</string>
+    <string name="category_eat">Places To Eat</string>
+    <string name="category_night_life">Night Life</string>
+    <string name="category_travel">Travel</string>
+
+    <!--Places To Visit - Akshardham Temple-->
+    <string name="title_place_akshardham_temple">Akshardam Temple</string>
+    <string name="detail_place_akshardham_temple">Dedicated to Bhagwan Swaminarayan, Akshardham Temple exhibits the ancient culture of India.\n\nThe temple complex maintains a step-well styled courtyard and 60 acres of lush lawns featuring the bronze statues of Indian heroes, including patriots and warriors. Registered as the World\'s largest comprehensive Hindu temple in the Guinness World Record, the temple is an architectural marvel built from intricately carved sandstone and marble.\n\nFurthermore, the temple organizes exhibitions on Swaminarayan\'s life teachings and also organises a musical fountain and light show after sunset every day.</string>
+    <string name="timings_akshardham_temple">9:30 am to 06:30 pm</string>
+    <string name="entry_fee_akshardham_temple">Adults - ₹ 170 | Children - ₹ 100</string>
+    <string name="nearest_metro_akshardham_temple">Akshardham, Metro Station Akshardham, Noida Link Road, Ganesh Nagar, New Delhi, Delhi</string>
+    <string name="nearest_hospital_akshardham_temple">RK Hospital Pandav Nagara</string>
+    <string name="nearest_station_akshardham_temple">Pandav Nagar Police Station</string>
+
+    <!--Places To Visit - Red Fort-->
+    <string name="title_place_red_fort">Red Fort</string>
+    <string name="detail_place_red_fort">Constructed in 1639 by the Mughals, Red Fort gets its name from its massive red-coloured sandstone walls.\n\nSet in Old Delhi, the octagonal-shaped fort is spread over an area of 254 acres. The planning and designing of the fort is a fusion of Mughal, Persian, Hindu, and Timurid traditions.\n\nA strong influence on later structures built in and around Delhi, Red Fort also features a museum that holds Mughal-era artefacts, including daggers, curtains, miniature paintings and carpets. The highlights of this architectural creativity include the peacock throne, step well, imperial bath, Moti Masjid and Hira Mahal.</string>
+    <string name="timings_red_fort">09:30 am to 04:30 pm (Closed on Mondays)</string>
+    <string name="entry_fee_red_fort">Indian Citizens - ₹ 10 | Foreign Nationals - ₹ 150</string>
+    <string name="nearest_metro_red_fort">Lal Qila Metro Station</string>
+    <string name="nearest_hospital_red_fort">Saraf Hospital J6WR+JXV, Daryaganj, New Delhi, Delhi 110002</string>
+    <string name="nearest_station_red_fort">Police Station Jama Masjid</string>
+
+    <!--Places to Visit - India Gate-->
+    <string name="title_place_india_gate">India Gate</string>
+    <string name="detail_place_india_gate">India Gate symbolises the sacrifice of 70,000 Indian soldiers who lost their lives battling against the foreign army during the World War I.\n\nDesigned by Edwin Lutyens, it features the undying Amar Jawan Jyoti or the Flame of the Immortal Soldier which was added later to honour Indian martyred soldiers in the Indo-Pak War. Furthermore, this beautiful masterpiece is counted amongst the largest war memorials in India.\n\nStanding on a Bharatpur stone base, the structure is surrounded by lush lawns making it a popular picnic spot during winter afternoons and summer evenings. Lit at night, the monument looks magnificent with colourful fountains in the in the vicinity.</string>
+    <string name="nearest_metro_india_gate">Central Secretariat Metro Station</string>
+    <string name="nearest_hospital_india_gate">Dr. Ram Manohar Lohia Hospital, Delhi 110001</string>
+    <string name="nearest_station_india_gate">Police Station Tilak Marg, Delhi 110001</string>
+
+    <!--Places to Visit - Worlds of Wonder-->
+    <string name="title_place_world_of_wonder">Worlds of Wonder</string>
+    <string name="detail_place_world_of_wonder">A world-class amusement park, Worlds of Wonder ensures a fun-filled quality-time with your friends and family amidst a variety of attractions.\n\nPopularly known as WOW, it maintains over 20 rides, including Mega Disco, Download, Chart Smashers, Feedback, Fast Forward, Big Beat and Rockin Roller. Its La Fiesta zone, which is meant for your little ones exclusively, features rides like Hippti Hopp, Loco Motion, Space Shot and Samba Rhumba.\n\nSpread over 10 acres of land, the theme park is additionally popular for water rides and go-karting, and also features a pool bar, snack bar and Punjabi dhaba.</string>
+    <string name="timings_world_of_wonder">10:30 am to 7:00 pm</string>
+    <string name="entry_fee_world_of_wonder">For Amusement Park and Water Park: Adults - ₹ 1000 | Children - ₹ 800</string>
+    <string name="nearest_metro_world_of_wonder">Botanical Garden Metro Station Uttar Pradesh 201301</string>
+    <string name="nearest_hospital_world_of_wonder">Bhardwaj Hospital, Nh-1, Sector - 29 Opposite Ganga Shopping Complex, Noida, Uttar Pradesh 201301</string>
+    <string name="nearest_station_world_of_wonder">Sector 29 Police Station, 40, Dadri Main Rd, Bhangel, Salarpur Khadar, Sector - 106, Noida, Uttar Pradesh 201303</string>
+
+    <!--Places to Visit - Connaught Place-->
+    <string name="title_place_connaught_place">Connaught Place</string>
+    <string name="detail_place_connaught_place">Set in the heart of National Capital and popularly known as CP, Connaught Place is considered as the most expensive commercial markets in the world.\n\nIt is popular for housing showrooms of national and international brands, luxurious hotels and flea markets. The equinoctial sundial, Jantar Mantar, and Gurudwara Bangla Sahib featuring a reflecting pool, are extremely popular among tourists visiting Connaught Place.\n\nNotably, the commercial area got its name from Prince Arthur, 1st Duke of Connaught and Strathearn.</string>
+    <string name="nearest_metro_connaught_place">Rajiv Chowk Metro Station</string>
+    <string name="nearest_hospital_connaught_place">Smt Sucheta Kriplani Hospital, Delhi 110001</string>
+    <string name="nearest_station_connaught_place">Police Chauki, J6P7+5V7, Lady Hardinge Medical College, Munrika, New Delhi, Delhi 110001</string>
+
+    <!--Places to Visit - Dilli Haat-->
+    <string name="title_place_dilli_haat">Dilli Haat</string>
+    <string name="detail_place_dilli_haat">An outdoor marketplace located near INA Market, Dilli Haat is spread over 6 acres with 62 stalls presenting handicrafts and ethnic cuisine from various parts of India.\n\nIt offers a traditional rural ambience where visitors can admire the rich Indian culture and shop for items suitable to their modern-day requirements.\n\nMoreover, Dilli Haat organizes many cultural events, including dance and music performances, and aims to preserve the heritage of India.</string>
+    <string name="timings_dilli_haat">10:00 am to 10:00 pm</string>
+    <string name="entry_fee_dilli_haat">Adults - ₹ 30 | Children - ₹ 10 | Foreign Nationals - ₹ 100</string>
+    <string name="nearest_metro_dilli_haat">Dilli Haat - INA Metro Station</string>
+    <string name="nearest_hospital_dilli_haat">C.G.H.S. Wellness Center 15, Delhi 110023</string>
+    <string name="nearest_station_dilli_haat">Police Sahayata Kendra- Police Station, Delhi 110023</string>
+
+    <!--Places to Visit - Qutub Minar-->
+    <string name="title_place_qutub_minar">Qutub Minar</string>
+    <string name="detail_place_qutub_minar">Qutub Minar is a 73-metre tall minaret, named after Qutb-ud-din Aibak.\n\nThe tower contains 5 distinct tapering storeys, wherein first 3 storeys of this masterpiece are adorned with red sandstone, while the fourth and fifth storeys are constructed in marble and sandstone respectively, engraved with decorative Quranic texts.\n\nInterestingly, the tower has a spiral staircase with 379 steps, and has a mosque named ‘Quwwat-ul-Islam Masjid’ at the foot of the tower, which is the first mosque in India.</string>
+    <string name="timings_qutub_minar">7:00 am to 5:00 pm</string>
+    <string name="entry_fee_qutub_minar">Indian Citizens - ₹ 30 | Foreign Nationals - ₹ 500</string>
+    <string name="nearest_metro_qutub_minar">Qutab Minar Metro Station, Mittal Garden, Sainik Farm, New Delhi, Delhi 110030</string>
+    <string name="nearest_hospital_qutub_minar">K.R. Hospital, Delhi 110074</string>
+    <string name="nearest_station_qutub_minar">Mehrauli Police Station, Delhi 110030</string>
+
+    <!--Places to Visit - Humayun’s Tomb-->
+    <string name="title_place_humayun_tomb">Humayun\'s Tomb</string>
+    <string name="detail_place_humayun_tomb">Built in 1565 A.D., the Humayun’s Tomb was established in the memory of Humayun by his widow Bega Begam, and was the first example of Mughal architecture in India.\n\nConstructed after nine years of his demise, the tomb is inspired by Persian architecture which is reflected in the corridors arched alcoves, and the double dome.\n\nThe tomb is also called chaharbagh, owing to its garden squares with passageways water channels, and holds graves of Mughal rulers inside the walled enclosed space.</string>
+    <string name="timings_humayun_tomb">6:00 am to 6:00 pm</string>
+    <string name="entry_fee_humayun_tomb">Indian Citizens - ₹ 30 | Foreign Nationals - ₹ 500</string>
+    <string name="nearest_metro_humayun_tomb">Hazrat Nizamuddin Metro Station, Block A, Ganga Vihar, Sarai Kale Khan, New Delhi, Delhi 110013</string>
+    <string name="nearest_hospital_humayun_tomb">Jeewan Hospital, Delhi 110014</string>
+    <string name="nearest_station_humayun_tomb">Hazarat Nizamuddin Police Station, Delhi 110013</string>
+
+    <!--Places to Visit - Lotus Temple-->
+    <string name="title_place_lotus_temple">Lotus Temple</string>
+    <string name="detail_place_lotus_temple">Known for its unique architectural design, Lotus Temple is a Bahá’í House of Worship, dedicated to harmony of humanity.\n\nInspired by the lotus flower, the temple boasts of 27 free-standing marble-clad petals, and is surrounded by sprawling gardens and pond. With a height of over 34 metres, it can accommodate around 2500 people altogether.\n\nThe temple welcomes every religion symbolizing the culture of Bahá’í Houses of Worship, and offers a tranquil ambience ideal for rejuvenation.</string>
+    <string name="timings_lotus_temple">9:00 am to 5:00 pm</string>
+    <string name="nearest_metro_lotus_temple">NSIC Okhla Metro Station, Delhi 110065</string>
+    <string name="nearest_hospital_lotus_temple">Apollo Spectra Hospitals, 13, Kailash Rd, Sant Nagar, East of Kailash, New Delhi, Delhi 110065</string>
+    <string name="nearest_station_lotus_temple">Police Post Nehru Place, Nehru Place South Delhi, near Place Market, New Delhi, Delhi 110019</string>
+
+    <!--Places to Visit - Cyber Hub-->
+    <string name="title_place_cyber_hub">Cyber Hub</string>
+    <string name="detail_place_cyber_hub">If there is one place in NCR that all fun seekers swear by, it’s Cyber Hub Gurgaon.\n\nIt is an integrated food and entertainment destination with multiple offices, mainly occupying the higher floors of the buildings within the complex. Along the promenade that makes its way through these buildings are an array of dining options including restaurants, bars &amp; pubs, cafes, bakeries, dessert places, and so on.\n\nPlaces like Smaaash and The People and Co. lift the entertainment quotient even further. There are a few retail outlets as well, along with an amphitheatre for events and promotional activities.</string>
+    <string name="timings_cyber_hub">Most of the dining venues remain open till midnight.</string>
+    <string name="nearest_metro_cyber_hub">IndusInd Bank Cyber City Metro Station, Haryana 122022</string>
+    <string name="nearest_hospital_cyber_hub">RBS HOSPITAL, Haryana 122022</string>
+    <string name="nearest_station_cyber_hub">DLF Phase 2 Police Station, Haryana 122001</string>
+
+    <!--Places to Visit - National Rail Museum-->
+    <string name="title_place_national_rail_museum">National Rail Museum</string>
+    <string name="detail_place_national_rail_museum">First of its kind in India, Delhi’s National Rail Museum houses the largest collection of life-size railway exhibits including locomotives, coaches and simulators collected from different princely states of the country.\n\nThe indoor galleries within this 11-acre museum also preserve documents, drawings, books, maps and other items that take you on a journey through over 160 years of Indian Railway.\n\nToy Train 1:8, 3D Virtual Coach Ride, Joy Train and PSMT Ride are the major attractions at this museum.</string>
+    <string name="timings_national_rail_museum">Monday to Thursday: 10:00 am to 5:00 pm\nFriday, Saturday &amp; Sunday: 6:00 pm to 9:00 pm</string>
+    <string name="entry_fee_national_rail_museum">Weekdays: Adults - ₹ 50 | Children - ₹ 10\nWeekends and Holidays: Adults - ₹ 100 | Children - ₹ 20\nFor Night Entry (Friday-Sunday): Adults - ₹ 200 | Children - ₹ 150</string>
+    <string name="nearest_metro_national_rail_museum">Sir Vishweshariah Moti Bagh Metro Station, Delhi 110021</string>
+    <string name="nearest_hospital_national_rail_museum">Primus Super Speciality Hospital, Delhi 110021</string>
+    <string name="nearest_station_national_rail_museum">Ashoka Police Line, Delhi 110021</string>
+
+    <!--Places to Visit - Rashtrapati Bhavan-->
+    <string name="title_place_rashtrapati_bhavan">Rashtrapati Bhavan</string>
+    <string name="detail_place_rashtrapati_bhavan">When in New Delhi, don’t miss out on exploring the Rashtrapati Bhavan, the official residence of the President of India.\n\nFlanked on the western end of Rajpath, this sprawling 330-acre estate houses the Main Building (Circuit 1), the Rashtrapati Bhavan Museum Complex (Circuit 2) and the world-famous Mughal Gardens (Circuit 3).\n\nA creation of Sir Edwin Lutyens and Herbert Baker, this huge presidential palace is the largest home of any head of state in the world and is truly an architectural marvel.</string>
+    <string name="timings_rashtrapati_bhavan">9:00 am to 4:00 pm\nCircuit 1: Open on Thursday-Sunday.\nCircuit 2: Open on all days except Monday.\nCircuit 3: Open on Thursday-Sunday (November-March).</string>
+    <string name="entry_fee_rashtrapati_bhavan">₹ 50</string>
+    <string name="nearest_metro_rashtrapati_bhavan">Central Secretariat Metro Station</string>
+    <string name="nearest_hospital_rashtrapati_bhavan">Dr. Ram Manohar Lohia Hospital, Delhi 110001</string>
+    <string name="nearest_station_rashtrapati_bhavan">Police Station Tilak Marg, Delhi 110001</string>
+
+    <!--Places to Visit - Jantar Mantar-->
+    <string name="title_place_jantar_mantar">Jantar Mantar</string>
+    <string name="detail_place_jantar_mantar">Jantar Mantar is one of the most popular places to visit in Delhi.\n\nThis UNESCO World Heritage Site houses the equinoctial sundial that can measure the time of the day based on the sun’s movements.\n\nThere are a total of 13 astronomy architectural instruments here and you can spend a couple of hours enjoying their precision and build.</string>
+    <string name="timings_jantar_mantar">9:00 am to 7:00 pm</string>
+    <string name="entry_fee_jantar_mantar">Indian Citizens - ₹ 5 | Foreign Nationals - ₹ 100</string>
+    <string name="nearest_metro_jantar_mantar">Rajiv Chowk Metro Station</string>
+    <string name="nearest_hospital_jantar_mantar">Smt Sucheta Kriplani Hospital, Delhi 110001</string>
+    <string name="nearest_station_jantar_mantar">Police Chauki, J6P7+5V7, Lady Hardinge Medical College, Munrika, New Delhi, Delhi 110001</string>
+
+    <!--Places to Visit - Chandni Chowk-->
+    <string name="title_place_chandni_chowk">Chandni Chowk</string>
+    <string name="detail_place_chandni_chowk">Chandni Chowk is translated as Moonlight Street. This iconic area in Delhi houses one of the oldest markets in the city.\n\nYou can buy everything you want at wholesale prices here. The hustle and bustle of the street, the colourful and quaint stores, and the constant banter between buyers and sellers are experiences you should not miss.\n\nChandni Chowk has about 1500+ shops.</string>
+    <string name="timings_chandni_chowk">Most shops remain open between 10:00 AM and 7:00 PM on all days except Mondays.</string>
+    <string name="nearest_metro_chandni_chowk">Chandni Chowk Metro Station</string>
+    <string name="nearest_hospital_chandni_chowk">Hameedia Medical Centre, Delhi 110006</string>
+    <string name="nearest_station_chandni_chowk">Police Station Kotwali, Delhi 110006</string>
+
+    <!--Places to Visit - Lodhi Gardens-->
+    <string name="title_place_lodhi_garden">Lodhi Gardens</string>
+    <string name="detail_place_lodhi_garden">Lodhi Gardens is a park in the city that is spread over 90 acres and is surrounded by a beautifully maintained landscape.\n\nIt contains the tombs of Sikander Lodi, Mohammed Shah, Bara Gumbad, and Shisha Gumbad. The 15th-century architectural work is exquisite here. You can spend a couple of hours in the morning here exploring the grounds.</string>
+    <string name="timings_lodhi_garden">6:00 am to 7:30 pm</string>
+    <string name="nearest_metro_lodhi_garden">Khan Market Metro Station, Sujan Sing Park North, Sujan Singh Park, New Delhi, Delhi 110003</string>
+    <string name="nearest_hospital_lodhi_garden">Batra Hospital, Delhi 110003</string>
+    <string name="nearest_station_lodhi_garden">Police Station, 53, Prithviraj Ln, Prithiviraj Market, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003</string>
+
+
+    <!--Places to Eat - Connaught Place-->
+    <string name="title_eat_connaught_place">Connaught Place</string>
+    <string name="detail_eat_connaught_place">Connaught Place is the place in Delhi for food - no matter what your budget is. From fancy fine-dining restaurants to the delicious local rajma chawal. Connaught Place has food for everyone\'s budget.\n\nWith the best restaurants in the city, Connaught Place is an area that has all kinds of cuisine - local and international. Some joints you definitely should try out are Kake Da Hotel, Parikrama, Jain Chawal Wale, and Minar.</string>
+
+    <!--Places to Eat - Connaught Place - Locations-->
+    <!--Location - Barco-->
+    <string name="title_connaught_place_location_one">Barco\'s</string>
+    <string name="must_haves_connaught_place_location_one">Tom Kha Soup, Pan Fried Noodles, Chicken Drumstick, Dal Makhani, and Honey Chilli Potato.</string>
+    <string name="avg_cost_connaught_place_location_one">₹ 1050</string>
+    <string name="address_connaught_place_location_one">G 2/43, Middle Circle, Connaught Place, New Delhi</string>
+    <string name="timings_connaught_place_location_one">12:30 pm to 11:00 pm</string>
+
+    <!--Location - Ardor 2.1-->
+    <string name="title_connaught_place_location_two">Ardor 2.1</string>
+    <string name="must_haves_connaught_place_location_two">Paneer Labbabdar, Veg Kebab Platter, Dal Ardor, and Chilli Chicken Dry</string>
+    <string name="avg_cost_connaught_place_location_two">₹ 1900</string>
+    <string name="address_connaught_place_location_two">N 55 to 56 &amp; 88 to 89, Outer Circle, Connaught Place, New Delhi</string>
+    <string name="timings_connaught_place_location_two">12:00 pm to 12:00 am</string>
+
+    <!--Location - Zen-->
+    <string name="title_connaught_place_location_three">Zen</string>
+    <string name="must_haves_connaught_place_location_three">Chilli Paneer, Fragrant Chicken, Sushi, Prawn Pepper Salt, Sauteed Chinese Greens, Pasta Cheesecake, Fish French Fries, Spring Roll Noodles, Fried Rice, Manchow Soup Honey, Chilli Potato, and Manchurian.</string>
+    <string name="avg_cost_connaught_place_location_three">₹ 1300</string>
+    <string name="address_connaught_place_location_three">B-25, Connaught Place, New Delhi</string>
+    <string name="timings_connaught_place_location_three">11:00 am to 11:30 pm</string>
+
+    <!--Location - Warehouse Cafe-->
+    <string name="title_connaught_place_location_four">Warehouse Cafe</string>
+    <string name="must_haves_connaught_place_location_four">Cheese Nachos, Dahi Ke Kebab, Crispy Chilli Potatoes, and Non Vegetarian Shahi Platter</string>
+    <string name="avg_cost_connaught_place_location_four">₹ 2100</string>
+    <string name="address_connaught_place_location_four">D-19/20, 1st Floor, Inner Circle, Connaught Place, New Delhi</string>
+    <string name="timings_connaught_place_location_four">12:00 pm to 1:00 am</string>
+
+    <!--Location - Saravana Bhavan-->
+    <string name="title_connaught_place_location_five">Saravana Bhavan</string>
+    <string name="must_haves_connaught_place_location_five">Dosa, Idli, Gulab Jamun, Butter Chicken, Paratha, and Fish Noodles.</string>
+    <string name="avg_cost_connaught_place_location_five">₹ 550</string>
+    <string name="address_connaught_place_location_five">P 13, Connaught Circus, Connaught Place, New Delhi</string>
+    <string name="timings_connaught_place_location_five">8:00 am to 11:00 pm</string>
+
+    <!--Location - Sagar Ratna-->
+    <string name="title_connaught_place_location_six">Sagar Ratna</string>
+    <string name="must_haves_connaught_place_location_six">Butter Masala Dosa, Dahi Vada, Uttappam, Mysore Masala Dosa, Paneer Dosa, Onion Rava Dosa, Mini Idli, and Chettinad Dosa.</string>
+    <string name="avg_cost_connaught_place_location_six">₹ 750</string>
+    <string name="address_connaught_place_location_six">K-15, Connaught Place, New Delhi</string>
+    <string name="timings_connaught_place_location_six">8:00 am to 11:00 pm</string>
+
+    <!--Location - Lord of the Drinks-->
+    <string name="title_connaught_place_location_seven">Lord Of The Drinks</string>
+    <string name="must_haves_connaught_place_location_seven">Penne Arrabiata Sauce, Speedy Nachos, and Lord Of Veggies.</string>
+    <string name="avg_cost_connaught_place_location_seven">₹ 2200</string>
+    <string name="address_connaught_place_location_seven">G-72, 1st Floor, Outer Circle, Connaught Place, New Delhi</string>
+    <string name="timings_connaught_place_location_seven">11:30 am to 12:00 am</string>
+
+    <!--Places to Eat - Gali Paranthe Wali-->
+    <string name="title_eat_gali_paranthe_wali">Gali Paranthe Wali</string>
+    <string name="detail_eat_gali_paranthe_wali">If there\'s one place you\'ve got to visit, particularly if you\'re vegetarian, it\'s Paranthe Wali Gali. Several tiny shops serving delicious paranthe, fresh, hot and in a variety of styles. In existence for over 50 years, some of the original shops are still operating.\n\nSeveral celebrities and influential politicians and businessmen also visit this place, which is crowded through the evening and into the night.</string>
+
+    <!--Location - Gaya Prasad Shiv Charan-->
+    <string name="title_gali_paranthe_wali_location_one">Gaya Prasad Shiv Charan</string>
+    <string name="must_haves_gali_paranthe_wali_location_one">Traditional parathas like Paneer, Aloo-Pyaz, Gobi, and Pudina Paratha.</string>
+    <string name="avg_cost_gali_paranthe_wali_location_one">₹ 200</string>
+    <string name="address_gali_paranthe_wali_location_one">Gali Paranthe Wali, Chandni Chowk, New Delhi</string>
+    <string name="timings_gali_paranthe_wali_location_one">9:00 am to 11:00 pm</string>
+
+    <!--Location - Jung Bahadur Kachori Wala-->
+    <string name="title_gali_paranthe_wali_location_two">Jung Bahadur Kachori Wala</string>
+    <string name="must_haves_gali_paranthe_wali_location_two">Kachori Subzi, Khasta Kachori, and Dal Kachori.</string>
+    <string name="avg_cost_gali_paranthe_wali_location_two">₹ 50</string>
+    <string name="address_gali_paranthe_wali_location_two">1104, Jogiwari, Gali Paranthe Wali, Chandni Chowk, New Delhi</string>
+    <string name="timings_gali_paranthe_wali_location_two">10:30 am to 7:30 pm</string>
+
+    <!--Location - Kedarnath Premchand Halwai-->
+    <string name="title_gali_paranthe_wali_location_three">Kedarnath Premchand Halwai</string>
+    <string name="must_haves_gali_paranthe_wali_location_three">Nagori Matar Samosa, Gajar Halwa, Gulabjamun, and Lassi.</string>
+    <string name="avg_cost_gali_paranthe_wali_location_three">₹ 100</string>
+    <string name="address_gali_paranthe_wali_location_three">Shop Number 4, Tiraha Kinari Bazar, Paranthe Wali Gali, Chandni Chowk, Old Delhi</string>
+    <string name="timings_gali_paranthe_wali_location_three">6:00 am to 9:00 pm</string>
+
+    <!--Location - Kanwarji-->
+    <string name="title_gali_paranthe_wali_location_four">Kanwarji\'s</string>
+    <string name="must_haves_gali_paranthe_wali_location_four">Bikaner Mixture, Dal Biji, Kashmiri Mixture, Matthris, Anarkali and Shahi Toast.</string>
+    <string name="avg_cost_gali_paranthe_wali_location_four">₹ 200</string>
+    <string name="address_gali_paranthe_wali_location_four">Corner Gali Paranthe Wali, Opposite Central Blank, Chandni Chowk, Old Delhi</string>
+    <string name="timings_gali_paranthe_wali_location_four">9:00 am to 10:00 pm</string>
+
+    <!--Location - Babu Ram Parantha-->
+    <string name="title_gali_paranthe_wali_location_five">Babu Ram Parantha</string>
+    <string name="must_haves_gali_paranthe_wali_location_five">Papad Parantha, Meva Parantha, Karela Parantha, Dal Aloo Parantha and Lemon Parantha.</string>
+    <string name="address_gali_paranthe_wali_location_five">Paranthe Wali Gali</string>
+
+    <!--Places to Eat - Jama Masjid-->
+    <string name="title_eat_jama_masjid">Jama Masjid</string>
+    <string name="detail_eat_jama_masjid">Food in Delhi is incomplete without a visit to this area. If you eat meat and love street food, Jama Masjid area is the place to be!\n\nJama Masjid and the lane opposite, Bazaar Matia Mahal, have some of the best non-vegetarian street food in Delhi. From keema samosas to grilled boti to kebabs and jalebi, this area is a paradist for foodies.</string>
+
+    <!--Location - Aslam Chicken Corner-->
+    <string name="title_jama_masjid_location_one">Aslam Chicken Corner</string>
+    <string name="must_haves_jama_masjid_location_one">Butter Tikka Chicken.</string>
+    <string name="address_jama_masjid_location_one">Near churi walan gali, chitti qabar road, New Delhi</string>
+
+    <!--Location - Al-Jawahar-->
+    <string name="title_jama_masjid_location_two">Al-Jawahar</string>
+    <string name="must_haves_jama_masjid_location_two">Chicken Biryani and Chicken Jehangiri.</string>
+    <string name="address_jama_masjid_location_two">Jama Masjid, Matial Mahal Road Opposite Gate No.1, New Delhi</string>
+
+    <!--Location - Quereshi Kebabs-->
+    <string name="title_jama_masjid_location_three">Quereshi Kebabs</string>
+    <string name="must_haves_jama_masjid_location_three">Beef and Mutton Kebabs.</string>
+    <string name="address_jama_masjid_location_three">Gate no. 1, Near Jama Masjid, Urdu Bazar, New Delhi</string>
+
+    <!--Location - Haji Mohd. Hussain Fried Chicken-->
+    <string name="title_jama_masjid_location_four">Haji Mohd. Hussain Fried Chicken</string>
+    <string name="must_haves_jama_masjid_location_four">Keema Goli and Fried Chicken.</string>
+    <string name="address_jama_masjid_location_four">No. 113, Matia Mahal Rd, Jama Masjid, Bazar Matia Mahal, Chandni Chowk, New Delhi</string>
+
+    <!--Location - Laung Churey Kebabs-->
+    <string name="title_jama_masjid_location_five">Laung Churey Kebabs</string>
+    <string name="must_haves_jama_masjid_location_five">Veg Kebabs</string>
+    <string name="address_jama_masjid_location_five">Outside Hamdard shop in Chitli Qabar</string>
+
+    <!--Location - Kallan Sweets-->
+    <string name="title_jama_masjid_location_six">Kallan Sweets</string>
+    <string name="must_haves_jama_masjid_location_six">Paneer Pakora, Khoya Samosa, and Panner Ki Jalebi.</string>
+    <string name="address_jama_masjid_location_six">Shop No. 4–5, Matia Mahal Road, Opposite Jama Masjid Gate No. 1, Matia Mahal, New Delhi</string>
+
+    <!--Places to Eat - Karol Bagh-->
+    <string name="title_eat_karol_bagh">Karol Bagh</string>
+    <string name="detail_eat_karol_bagh">Karol Bagh has an eclectic blend of all kinds of Indian cuisine. From street food, and shakes to dhabas and restaurants, it has some amazing food options.\n\nRoshan Di Kulfi, Anjalika, Om Corner Chhole Bhature, Art of Spices, Sindhi Corner, Sandoz, and Changezi are some of our favorites and we definitely recommend checking them out.</string>
+
+    <!--Location - Roshan Di Kulfi-->
+    <string name="title_karol_bagh_location_one">Roshan Di Kulfi</string>
+    <string name="avg_cost_karol_bagh_location_one">₹ 500</string>
+    <string name="address_karol_bagh_location_one">2816, Ajmal Khan Road, Karol Bagh</string>
+    <string name="timings_karol_bagh_location_one">8:00 am to 9:00 pm</string>
+
+    <!--Location - Changezi-->
+    <string name="title_karol_bagh_location_two">Changezi</string>
+    <string name="avg_cost_karol_bagh_location_two">₹ 650</string>
+    <string name="address_karol_bagh_location_two">3-A, New Rohtak Road, East Park Road, Shidi Pura, Dori Walan, Near HDFC Bank, Karol Bagh</string>
+    <string name="timings_karol_bagh_location_two">3:00 pm to 11:00 pm</string>
+
+    <!--Location - Ganesh Restaurant-->
+    <string name="title_karol_bagh_location_three">Ganesh Restaurant</string>
+    <string name="avg_cost_karol_bagh_location_three">₹ 400</string>
+    <string name="address_karol_bagh_location_three">2298, Gurudwara Road, Karol Bagh</string>
+    <string name="timings_karol_bagh_location_three">4:00 pm to 11:00 pm</string>
+
+    <!--Location - Art Of Spices-->
+    <string name="title_karol_bagh_location_four">Art Of Spices</string>
+    <string name="avg_cost_karol_bagh_location_four">₹ 500</string>
+    <string name="address_karol_bagh_location_four">B &#8531; Behind City Hospital, Pusa Road, Karol Bagh</string>
+    <string name="timings_karol_bagh_location_four">10:30 am to 11:30 pm</string>
+
+    <!--Location - Om Corner-->
+    <string name="title_karol_bagh_location_five">Om Corner</string>
+    <string name="avg_cost_karol_bagh_location_five">₹ 200</string>
+    <string name="address_karol_bagh_location_five">Sant Nagar DB Gupta Road, Karol Bagh</string>
+    <string name="timings_karol_bagh_location_five">7:00 am to 5:00 pm</string>
+
+    <!--Places to Eat - Khan Market-->
+    <string name="title_eat_khan_market">Khan Market</string>
+    <string name="detail_eat_khan_market">Khan Market is one of Delhi\'s incredible food districts. It has a mix of cafes, fine dining options and fast food. A vibrant neighbourhood, whose streets are filled with the delicious aromas of mutton kebab and fried rice, it is a hub for the best eateries, bars and restaurants.\n\nA few restaurants here that you absolutely must visit are The Big Chill, Yellow Brick Road Restaurant, Wok in the Clouds, Azam\'s Mughlai, and Cafe Turtle.</string>
+
+    <!--Location - Town Hall Restaurant-->
+    <string name="title_khan_market_location_one">Town Hall Restaurant</string>
+    <string name="address_khan_market_location_one">61 Khan Market, Rabindra Nagar, New Delhi</string>
+    <string name="timings_khan_market_location_one">11:00 am to 12:00 am</string>
+
+    <!--Location - The Big Chill Cafe-->
+    <string name="title_khan_market_location_two">The Big Chill Cafe</string>
+    <string name="address_khan_market_location_two">35 Khan Market, New Delhi</string>
+    <string name="timings_khan_market_location_two">11:00 am to 11:00 pm</string>
+
+    <!--Location - Wok In The Clouds-->
+    <string name="title_khan_market_location_three">Wok In The Clouds</string>
+    <string name="address_khan_market_location_three">52 Khan Market, New Delhi</string>
+    <string name="timings_khan_market_location_three">11:30 am to 1:00 am</string>
+
+    <!--Location - The Coffee Bean & Tea Leaf-->
+    <string name="title_khan_market_location_four">The Coffee Bean &amp; Tea Leaf</string>
+    <string name="address_khan_market_location_four">62 Middle Lane, New Delhi</string>
+    <string name="timings_khan_market_location_four">8:00 am to 11:00 pm</string>
+
+    <!--Location - Cafe Turtle-->
+    <string name="title_khan_market_location_five">Cafe Turtle</string>
+    <string name="address_khan_market_location_five">23 Middle Lane, 2nd Floor, Khan Market</string>
+    <string name="timings_khan_market_location_five">9:30 am to 9:30 pm</string>
+
+    <!--Places to Eat - Nizamuddin-->
+    <string name="title_eat_nizamuddin">Nizamuddin</string>
+    <string name="detail_eat_nizamuddin">Another street best food in Delhi, which you most certainly shouldn\'t miss, is Nizamuddin. There are dozens of amazing eateries in this area and you will find delicious kebabs, sweets, and Mughlai delicacies.\n\nAll you meat-lovers out there should definitely try out Karim\'s, Gulgam Kashmiri Wazwan, and Ghalib Kebab Corner.</string>
+
+    <!--Location - Dastarkhwam-E-Karim-->
+    <string name="title_nizzamudin_location_one">Dastarkhwam-E-Karim</string>
+    <string name="must_haves_nizzamudin_location_one">Nayab Mughz Masala and Gurda Keliji.</string>
+    <string name="address_nizzamudin_location_one">Shop No. 168/2, Nizammudin West Slum, Delhi 110013</string>
+    <string name="timings_nizzamudin_location_one">1:00 pm to 11:00 pm</string>
+
+    <!--Location - Ghalib Kebab Corner-->
+    <string name="title_nizzamudin_location_two">Ghalib Kebab Corner</string>
+    <string name="must_haves_nizzamudin_location_two">Shaami Kebab</string>
+    <string name="address_nizzamudin_location_two">Mirza Ghalib\'s Grave, Nizamuddin West, Delhi 110013</string>
+    <string name="timings_nizzamudin_location_two">12:00 pm to 11:30 pm</string>
+
+    <!--Location - Cafe Turtle-->
+    <string name="title_nizzamudin_location_three">Cafe Turtle</string>
+    <string name="address_nizzamudin_location_three">8, Nizamuddin East Market, Block B, Delhi 110003</string>
+    <string name="timings_nizzamudin_location_three">8:00 am to 8:30 pm</string>
+
+    <!--Places to Eat - North Campus-->
+    <string name="title_eat_north_campus">North Campus</string>
+    <string name="detail_eat_north_campus">Whether you are in the mood for street food, snacks, fast food, or multi-cuisine diners, North Campus is a place where you\'ll find all of these.\n\nSince this is a university area, the food is pocket friendly, and the numerous options available service delicious food. We recommend you try out Momo\'s Point, Bille Di Hatti, Chache Di Hatti, Shagun Asian Eatery, Bamboo Hut, and South Indian Cafe.</string>
+
+    <!--Location - The Hudson Cafe-->
+    <string name="title_north_campus_location_one">The Hudson Cafe</string>
+    <string name="must_haves_north_campus_location_one">Penne Cream Sauce</string>
+    <string name="avg_cost_north_campus_location_one">₹ 179</string>
+    <string name="address_north_campus_location_one">2524, 1st Floor, Hudson Lane, Delhi University - GTB Nagar</string>
+
+    <!--Location - Rico-->
+    <string name="title_north_campus_location_two">Rico\'s</string>
+    <string name="must_haves_north_campus_location_two">Burger Sampler</string>
+    <string name="avg_cost_north_campus_location_two">₹ 190</string>
+    <string name="address_north_campus_location_two">2526, 1st Floor, Hudson Lane, Kingsway Camp, Delhi University - GTB Nagar</string>
+
+    <!--Location - OD-->
+    <string name="title_north_campus_location_three">OD\'s</string>
+    <string name="must_haves_north_campus_location_three">Tandoori Momos</string>
+    <string name="address_north_campus_location_three">522, Ground Floor, Hudson Lane, Delhi University - GTB Nagar</string>
+
+    <!--Location - YOLO 21-->
+    <string name="title_north_campus_location_four">YOLO 21</string>
+    <string name="must_haves_north_campus_location_four">Banoffe Pie and Chunky Monke Shake.</string>
+    <string name="address_north_campus_location_four">2520, 1st Floor, Hudson Lane, Kingsway Camp, Delhi University - GTB Nagar</string>
+
+    <!--Location - Tom Uncle's Maggi Point-->
+    <string name="title_north_campus_location_five">Tom Uncle\'s Maggi Point</string>
+    <string name="must_haves_north_campus_location_five">Masala Maggi</string>
+    <string name="address_north_campus_location_five">Near Rajmas College, Maurice Nagar Chowk, North Campus, Delhi University - GTB Nagar</string>
+
+    <!--Places to Eat - South Campus-->
+    <string name="title_eat_south_campus">South Campus</string>
+    <string name="detail_eat_south_campus">If you are a college student or just someone on a tight budget, in search of some delicious food, South Campus is a great option, with a variety of awesome cafes.\n\nThe cafes here mostly serve shakes, fast food, American and Italian cuisines. Our favorites are Scooter on the Wall, Big Yellow Door, and QD\'s. Check out one of these joints for some fantastic food.</string>
+
+    <!--Location - Big Yellow Door-->
+    <string name="title_south_campus_location_one">Big Yellow Door</string>
+    <string name="avg_cost_south_campus_location_one">₹ 600</string>
+    <string name="address_south_campus_location_one">H 8, Satyaniketan Road, Opp. Venkateshwara College, South Moti Bagh, New Delhi</string>
+
+    <!--Location - Woodbox Cafe-->
+    <string name="title_south_campus_location_two">Woodbox Cafe</string>
+    <string name="avg_cost_south_campus_location_two">₹ 750</string>
+    <string name="address_south_campus_location_two">Shop 15, Opposite Venkateswara College, Satyaniketan, New Delhi</string>
+
+    <!--Location - Scooter On The Wall-->
+    <string name="title_south_campus_location_three">Scooter On The Wall</string>
+    <string name="avg_cost_south_campus_location_three">₹ 800</string>
+    <string name="address_south_campus_location_three">123–124, Ground Floor, Satyaniketan Road, New Delhi</string>
+
+    <!--Location - Echoes-->
+    <string name="title_south_campus_location_four">Echoes</string>
+    <string name="avg_cost_south_campus_location_four">₹ 500</string>
+    <string name="address_south_campus_location_four">Satyaniketan, South Moti Bagh, New Delhi</string>
+
+    <!--Location - Diggin-->
+    <string name="title_south_campus_location_five">Diggin</string>
+    <string name="avg_cost_south_campus_location_five">₹ 1350</string>
+    <string name="address_south_campus_location_five">No. 1 &amp; 2, Anand Lok Shopping Centre, Opp Gargi College, New Delhi</string>
+
+    <!--Places to Eat - Old Delhi-->
+    <string name="title_eat_old_delhi">Old Delhi</string>
+    <string name="detail_eat_old_delhi">Fun Fact: All our favorite chat items, from Papri Chaat and Dahi Bhalla to Jalebi, originated in Old Delhi.\n\n Old Delhi is a popular hub for street food, authentic Mughlai cuisine, and sweets. If you really want an authentic experience with typical north Indian street food, Old Delhi is a must-visit.\n\nSome of our recommendation are Khemchand Adesh Kumar\'s Daulat Ki Chaat, Lotan Chole Wala, Jung Bahadur Kachori Waala, and Shree Balaji Chaat Bhandar and Bishan Swaroop for the best chaat you will ever have.</string>
+
+    <!--Location - Kuremal Mohan Lal-->
+    <string name="title_old_delhi_location_one">Kuremal Mohan Lal</string>
+    <string name="address_old_delhi_location_one">Shop No. 526, Kucha Pati Ram, Sitaram Bazar Rd, Chawri Bazar, Delhi 110006</string>
+
+    <!--Location - Old Kheer Shop-->
+    <string name="title_old_delhi_location_two">Old Kheer Shop</string>
+    <string name="address_old_delhi_location_two">2867, Bazar Sirkiwalan, Chawri Bazar, Chandni Chowk, Delhi 110006</string>
+
+    <!--Location - Arvink Pakode Wala-->
+    <string name="title_old_delhi_location_three">Arvink Pakode Wala</string>
+    <string name="address_old_delhi_location_three">Vaidwara, Maliwara, Chandni Chowk, Delhi 110006</string>
+
+    <!--Location - Shyam Sweets-->
+    <string name="title_old_delhi_location_four">Shyam Sweets</string>
+    <string name="address_old_delhi_location_four">House No. 112 Chowk Barshahbulla, Chawri Bazar, Delhi 110006</string>
+
+    <!--Location - Jung Bahadur Kachori Wala-->
+    <string name="title_old_delhi_location_five">Jung Bahadur Kachori Wala</string>
+    <string name="address_old_delhi_location_five">1104, Gali Bhojpura Rd, Maliwara, Katra Leshwan, Chandni Chowk, Delhi 110006</string>
+
+    <!--Night Life - Nightclubs-->
+    <string name="title_night_nightclubs">Nightclubs - Dance The Night Away</string>
+    <string name="detail_night_nightclubs">There are plenty of nightclubs in New Delhi along with late night hangouts place in Delhi. The Delhi nightlife is known for one of the best party cultures in India alongside Bangalore &amp; Mumbai. There are numerous night clubs in Delhi with feet tapping music, booze, and awesome ambience.\n\nTap for the best nightlife places in Delhi that are the safest party junction in the city redefining the meaning of fun for you.</string>
+
+    <!--Location - Ghungroo-->
+    <string name="title_nightclubs_location_one">Ghungroo</string>
+    <string name="usp_nightclubs_location_one">Delhi\'s favorite nightlife hub since the 90s.</string>
+    <string name="avg_cost_nightclubs_location_one">₹ 1500</string>
+    <string name="address_nightclubs_location_one">ITC Sheraton, Chanakyapuri</string>
+    <string name="timings_nightclubs_location_one">10:30 pm to 4:00 am</string>
+
+    <!--Location - Agni-->
+    <string name="title_nightclubs_location_two">Agni</string>
+    <string name="usp_nightclubs_location_two">The glamour and the glitter.</string>
+    <string name="avg_cost_nightclubs_location_two">₹ 4000</string>
+    <string name="address_nightclubs_location_two">The Park Hotel, Connaught Place</string>
+    <string name="timings_nightclubs_location_two">11:30 am to 12:30 am</string>
+
+    <!--Location - Kitty Su-->
+    <string name="title_nightclubs_location_three">Kitty Su</string>
+    <string name="usp_nightclubs_location_three">The enormous dance floor.</string>
+    <string name="avg_cost_nightclubs_location_three">₹ 5000</string>
+    <string name="address_nightclubs_location_three">The Lalit, Connaught Place</string>
+    <string name="timings_nightclubs_location_three">11:30 am to 12:30 am</string>
+
+    <!--Location - Raasta-->
+    <string name="title_nightclubs_location_four">Raasta</string>
+    <string name="usp_nightclubs_location_four">An energetic, fun environment and the exotic range of cuisines - European, Thai, and Mexican.</string>
+    <string name="avg_cost_nightclubs_location_four">₹ 2000</string>
+    <string name="address_nightclubs_location_four">Cyber Hub</string>
+
+    <!--Location - Summer House-->
+    <string name="title_nightclubs_location_five">Summer House</string>
+    <string name="usp_nightclubs_location_five">Goan club vibes</string>
+    <string name="avg_cost_nightclubs_location_five">₹ 2000</string>
+    <string name="address_nightclubs_location_five">1st Floor, DDA Shopping Complex, Aurobindo Place, Hauz Khas, New Delhi</string>
+    <string name="timings_nightclubs_location_five">12:00 pm to 12:30 am</string>
+
+    <!--Location - Privee-->
+    <string name="title_nightclubs_location_six">Privee\'</string>
+    <string name="usp_nightclubs_location_six">Unique and delicious drinks menu.</string>
+    <string name="avg_cost_nightclubs_location_six">₹ 5000</string>
+    <string name="address_nightclubs_location_six">Shangri-La\'s Eros Hotel Complex, 19, Ashoka Road, Above Kanishka Shopping Mall Arcade, Janpath, New Delhi</string>
+    <string name="timings_nightclubs_location_six">10:00 pm to 4:30 am</string>
+
+    <!--Location - Key Night Club-->
+    <string name="title_nightclubs_location_seven">Key Night Club</string>
+    <string name="usp_nightclubs_location_seven">Comical bars and late night parties.</string>
+    <string name="avg_cost_nightclubs_location_seven">₹ 4000</string>
+    <string name="address_nightclubs_location_seven">Hotel Samrat, Kautilya Marg, Chanakyapuri, New Delhi</string>
+    <string name="timings_nightclubs_location_seven">10:00 pm to 4:00 am</string>
+
+    <!--Location - Lithiyum-->
+    <string name="title_nightclubs_location_eight">Lithiyum</string>
+    <string name="usp_nightclubs_location_eight">Spacious dance floor with futuristic decor.</string>
+    <string name="avg_cost_nightclubs_location_eight">₹ 5000</string>
+    <string name="address_nightclubs_location_eight">The Ashok, Chanakyapuri</string>
+    <string name="timings_nightclubs_location_eight">10:00 pm to 4:00 am</string>
+
+    <!--Night Life - Lounges-->
+    <string name="title_night_lounges">Lounges - Experience Delhi\'s Extravagant Bar</string>
+    <string name="detail_night_lounges">You haven\’t lived fully if you haven\’t experienced Delhi\’s extravagant bar hopping scene. For people who want to simply chill with friends with a beer in hand a great music around, here are the best night clubs in Delhi.\n\nA fun nightlife in Delhi is an incomplete without these cosy spots around. If you want to experience nightlife with South Delhi, then you will have ample of options in lounges there.</string>
+
+    <!--Location - AM PM Cafe-->
+    <string name="title_lounges_location_one">AM PM Cafe</string>
+    <string name="usp_lounges_location_one">The posh terrace ambience.</string>
+    <string name="avg_cost_lounges_location_one">₹ 2000</string>
+    <string name="address_lounges_location_one">Rajouri Garden</string>
+
+    <!--Location - Fork You-->
+    <string name="title_lounges_location_two">Fork You</string>
+    <string name="usp_lounges_location_two">Customized Burgers &amp; Cocktails.</string>
+    <string name="avg_cost_lounges_location_two">₹ 1700</string>
+    <string name="address_lounges_location_two">Hauz Khas Village</string>
+    <string name="timings_lounges_location_two">11:00 am to 12:30 am</string>
+
+    <!--Location - Hauz Khas Social, Hauz Khas-->
+    <string name="title_lounges_location_three">Hauz Khas Social, Hauz Khas</string>
+    <string name="usp_lounges_location_three">The amazing range of Cocktails and the classy atmosphere.</string>
+    <string name="avg_cost_lounges_location_three">₹ 1300</string>
+    <string name="address_lounges_location_three">Hauz Khas Village</string>
+    <string name="timings_lounges_location_three">11:00 am to 1:00 am</string>
+
+    <!--Location - My Bar Headquarters-->
+    <string name="title_lounges_location_four">My Bar Headquarters</string>
+    <string name="usp_lounges_location_four">The heaven of inexpensive alcohol.</string>
+    <string name="avg_cost_lounges_location_four">₹ 1300</string>
+    <string name="address_lounges_location_four">Connaught Place</string>
+    <string name="timings_lounges_location_four">11:00 am to 1:00 am</string>
+
+    <!--Location - Mocha Arthouse Cafe-->
+    <string name="title_lounges_location_five">Mocha Arthouse Cafe</string>
+    <string name="usp_lounges_location_five">Great food among great network.</string>
+    <string name="avg_cost_lounges_location_five">₹ 1400</string>
+    <string name="address_lounges_location_five">Vasant Kunj</string>
+    <string name="timings_lounges_location_five">11:00 am to 1:00 am</string>
+
+    <!--Location - Turquoise Cottage-->
+    <string name="title_lounges_location_six">Turquoise Cottage</string>
+    <string name="usp_lounges_location_six">The delightful cuisines and rooftop seating.</string>
+    <string name="avg_cost_lounges_location_six">₹ 1900</string>
+    <string name="address_lounges_location_six">Kamla Nagar</string>
+    <string name="timings_lounges_location_six">11:00 am to 1:00 am</string>
+
+    <!--Location - S Bar & Restaurant-->
+    <string name="title_lounges_location_seven">S Bar &amp; Restaurant</string>
+    <string name="usp_lounges_location_seven">A great combination of Booze &amp; Sufi music.</string>
+    <string name="avg_cost_lounges_location_seven">₹ 2600</string>
+    <string name="address_lounges_location_seven">Greater Kailash</string>
+    <string name="timings_lounges_location_seven">11:00 am to 12:30 am</string>
+
+    <!--Location - Kylin Sky Bar-->
+    <string name="title_lounges_location_eight">Kylin Sky Bar</string>
+    <string name="usp_lounges_location_eight">Drinking under the starts (Rooftop seating).</string>
+    <string name="avg_cost_lounges_location_eight">₹ 2300</string>
+    <string name="address_lounges_location_eight">Ambience Mall, Vasant Kunj</string>
+    <string name="timings_lounges_location_eight">11:00 am to 12:30 am</string>
+
+    <!--Location - The Library-->
+    <string name="title_lounges_location_nine">The Library</string>
+    <string name="usp_lounges_location_nine">Cosy surroundings and awesome Cocktails.</string>
+    <string name="avg_cost_lounges_location_nine">₹ 1200</string>
+    <string name="address_lounges_location_nine">The Leela Palace, Chanakyapuri</string>
+    <string name="timings_lounges_location_nine">11:00 am to 1:00 am</string>
+
+    <!--Location - The Beer Cafe - Biggie-->
+    <string name="title_lounges_location_ten">The Beer Cafe - Biggie</string>
+    <string name="usp_lounges_location_ten">Probably the most enormous variety of Beer you\'d ever find in Delhi.</string>
+    <string name="avg_cost_lounges_location_ten">₹ 1500</string>
+    <string name="address_lounges_location_ten">Connaught Place</string>
+    <string name="timings_lounges_location_ten">11:00 am to 1:00 am</string>
+
+    <!--Location - Soi 7-->
+    <string name="title_lounges_location_eleven">Soi 7</string>
+    <string name="usp_lounges_location_eleven">The most tempting Beers brewed on-site.</string>
+    <string name="avg_cost_lounges_location_eleven">₹ 2300</string>
+    <string name="address_lounges_location_eleven">Cyber Hub</string>
+    <string name="timings_lounges_location_eleven">11:00 am to 1:00 am</string>
+
+    <!--Night Life - Music Locales-->
+    <string name="title_night_music_locales">Music Locales - Visit Hippest Music Venues</string>
+    <string name="detail_night_music_locales">Friends and music are the best remedy to help kill the stress of work. Which is why, Delhi has some of the coolest and hippest music venues for music lovers of all kinds of the best nightlife in Delhi for singles.\n\nFrom light band performances, karaoke nights, to soft music play in the background, Delhi nightlife has it all. There are many places where you can spend the best nightlife in Delhi.</string>
+
+    <!--Location - Hark Rock Cafe-->
+    <string name="title_music_location_one">Hark Rock Cafe</string>
+    <string name="usp_music_location_one">Live band performance by rising bands across the country.</string>
+    <string name="avg_music_location_one">₹ 2500</string>
+    <string name="address_music_location_one">Saket</string>
+    <string name="timings_music_location_one">11:00 am to 12:30 am</string>
+
+    <!--Location - Hybrid-->
+    <string name="title_music_location_two">Hybrid</string>
+    <string name="usp_music_location_two">Different kinds of music events almost everyday, as in, a Sufi Night one day and a DJ Night the next.</string>
+    <string name="avg_music_location_two">₹ 1000</string>
+    <string name="address_music_location_two">Janpath</string>
+    <string name="timings_music_location_two">11:00 am to 12:45 am</string>
+
+    <!--Location - TC Bar & Restaurant-->
+    <string name="title_music_location_three">TC Bar &amp; Restaurant</string>
+    <string name="usp_music_location_three">Karaoke Nights and heavy Rock music.</string>
+    <string name="avg_music_location_three">₹ 1300</string>
+    <string name="address_music_location_three">Connaught Place</string>
+    <string name="timings_music_location_three">11:00 am to 1:00 am</string>
+
+    <!--Location - TLR: The Living Room-->
+    <string name="title_music_location_four">TLR: The Living Room</string>
+    <string name="usp_music_location_four">A rooftop cafe with a pretty decor and laid back background music to enjoy your food with.</string>
+    <string name="avg_music_location_four">₹ 1400</string>
+    <string name="address_music_location_four">Hauz Khas</string>
+    <string name="timings_music_location_four">11:00 am to 1:00 am</string>
+
+    <!--Night Life - Liquor Stores-->
+    <string name="title_night_liquor_stores">Liquor Stores - Grab Your Favorites!</string>
+    <string name="detail_night_liquor_stores">We can\’t even imagine best nightlife in Delhi without booze. It is an essential ingredient. It\’s difficult to find a good shop selling alcohol at night in Delhi NCR region, but not if you know where to look!\n\nThe best of thekas are open till midnight and some even have post shacks alongside them so that people can sit, drink, and discuss crazy life stories with friends and experience the best of New Delhi nightlife!\n\nAfter all, nightlife in Delhi for singles can be best experienced with a bunch of good friends and a pint!</string>
+
+    <!--Location - Discovery Wine-->
+    <string name="title_liquor_location_one">Discovery Wine</string>
+    <string name="usp_liquor_location_one">The best range of wines.</string>
+    <string name="address_liquor_location_one">Golf Course Road, Gurgaon</string>
+
+    <!--Location - Knight Riders-->
+    <string name="title_liquor_location_two">Knight Riders</string>
+    <string name="usp_liquor_location_two">A posh liquor shop and dining place alongside.</string>
+    <string name="address_liquor_location_two">Sikanderpur Metro Station</string>
+
+    <!--Location - Wine Hub-->
+    <string name="title_liquor_location_three">Wine Hub</string>
+    <string name="usp_liquor_location_three">The finest quality wine in NCR.</string>
+    <string name="address_liquor_location_three">Sector-31, Gurgaon</string>
+
+    <!--Location - Area 69-->
+    <string name="title_liquor_location_four">Area 69</string>
+    <string name="usp_liquor_location_four">A quaint eating joint attached to this decent liquor shop.</string>
+    <string name="address_liquor_location_four">Ardee City, Gurgaon</string>
+
+    <!--Night Life - Dining-->
+    <string name="title_night_dining">Dining - Choose From A Wide Range</string>
+    <string name="detail_night_dining">Willing to shell some extra bucks for getting the best dining experience? Check the below list to know about the best places to eat in Delhi.\n\nWith lavish surroundings, awesome ambience and the most scrumptious of cuisines, nightlife places in Delhi has a wide range of options.</string>
+
+    <!--Location - Bukhara-->
+    <string name="title_dining_location_one">Bukhara</string>
+    <string name="usp_dining_location_one">The home of the \'World\'s Best Daal!\' (Dal Bukhara).</string>
+    <string name="avg_dining_location_one">₹ 6500</string>
+    <string name="address_dining_location_one">ITC Maurya, Sardar Patel Marg</string>
+    <string name="timings_dining_location_one">11:00 am to 12:00 am</string>
+
+    <!--Location - Yellow Brick Road-->
+    <string name="title_dining_location_two">Yellow Brick Road</string>
+    <string name="usp_dining_location_two">The YBR Mixed Grill &amp; Bull\'s Eye</string>
+    <string name="avg_dining_location_two">₹ 3500</string>
+    <string name="address_dining_location_two">Taj Vivanta, Khan Market</string>
+    <string name="timings_dining_location_two">24 hours open</string>
+
+    <!--Location - Olive Bar & Kitchen-->
+    <string name="title_dining_location_three">Olive Bar &amp; Kitchen</string>
+    <string name="usp_dining_location_three">The Mediterranean food, especially the Classic Caesar Salad &amp; Seafood Rissoto.</string>
+    <string name="avg_dining_location_three">₹ 3000</string>
+    <string name="address_dining_location_three">Mehrauli</string>
+    <string name="timings_dining_location_three">11:00 am to 12:30 am</string>
+
+    <!--Location - Sevilla - The Claridges-->
+    <string name="title_dining_location_four">Sevilla - The Claridges</string>
+    <string name="usp_dining_location_four">Among the most romantic &amp; beautiful restaurants in Delhi.</string>
+    <string name="avg_dining_location_four">₹ 4500</string>
+    <string name="address_dining_location_four">Aurangzeb Road</string>
+    <string name="timings_dining_location_four">11:00 am to 12:00 am</string>
+
+    <!--Night Life - Road Trip-->
+    <string name="title_night_road_trip">Road Trips For Food Near Delhi - Try The Best Faraway Places</string>
+    <string name="detail_night_road_trip">Who said road trips only take you places? They can also take you to your favourite food! Start your engines and get to these awesome faraway places to gorge some lip-smacking parathas and burgers and experience Delhi nightlife like never before.</string>
+
+    <!--Location - Murthal-->
+    <string name="title_road_location_one">Murthal</string>
+    <string name="usp_road_location_one">The Parathas laden with White Butter.</string>
+    <string name="avg_road_location_one">₹ 500</string>
+    <string name="address_road_location_one">Sonepat, Haryana</string>
+    <string name="timings_road_location_one">24 hours open</string>
+
+    <!--Location - McDonald's-->
+    <string name="title_road_location_two">McDonald\'s</string>
+    <string name="usp_road_location_two">A fun drive down to your favorite Burgers and Wraps.</string>
+    <string name="avg_road_location_two">₹ 500</string>
+    <string name="address_road_location_two">NH8, Manesar</string>
+    <string name="timings_road_location_two">24 hours open</string>
+
+    <!--Location - Old Rao Dhaba-->
+    <string name="title_road_location_three">Old Rao Dhaba</string>
+    <string name="usp_road_location_three">Delicious North Indian and Chinese cuisines.</string>
+    <string name="avg_road_location_three">₹ 300</string>
+    <string name="address_road_location_three">Delhi Jaipur Highway</string>
+    <string name="timings_road_location_three">11:00 am to 11:00 pm</string>
+
+    <!--Location - Mannat Dhaba-->
+    <string name="title_road_location_four">Mannat Dhaba</string>
+    <string name="usp_road_location_four">Beautiful ambiance and delicious food.</string>
+    <string name="avg_road_location_four">₹ 500</string>
+    <string name="address_road_location_four">Dharuhera, Murthal</string>
+    <string name="timings_road_location_four">24 hours open</string>
+
+    <!--Location - Rajwada - The Food Court-->
+    <string name="title_road_location_five">Rajwada - The Food Court</string>
+    <string name="usp_road_location_five">Ultimate pitstop for tasty and pocket-friendly Rajasthani food.</string>
+    <string name="avg_road_location_five">₹ 500</string>
+    <string name="address_road_location_five">75 Milestone Delhi - Jaipur Expressway Dharuheda Rewadi, Dharuhera</string>
+    <string name="timings_road_location_five">7:00 am to 11:00 pm</string>
+
+    <!--Night Life - Movies-->
+    <string name="title_night_movies">Late Night Movies - Enjoy Romantic Late Night Show</string>
+    <string name="detail_night_movies">Nightlife in Delhi, India isn\’t all about parties, booze and food, right? If you want to enjoy romantic late night show with your beloved, we have a list of some of the best theatres in Delhi that usually have shown running late into the night. Time to plan that late night movie date?!</string>
+
+    <!--Location - D.T. Star Cinemas-->
+    <string name="title_movies_location_one">D.T. Star Cinemas</string>
+    <string name="address_movies_location_one">Saket</string>
+
+    <!--Location - D.T. City Centre-->
+    <string name="title_movies_location_two">D.T. City Centre</string>
+    <string name="address_movies_location_two">M.G. Road</string>
+
+    <!--Location - MovieTime-->
+    <string name="title_movies_location_three">MovieTime</string>
+    <string name="address_movies_location_three">Pitampura</string>
+
+    <!--Location - Satyam Cineplex-->
+    <string name="title_movies_location_four">Satyam Cineplex</string>
+    <string name="address_movies_location_four">Patel Nagar</string>
+
+    <!--Night Life - Games-->
+    <string name="title_night_games">Games - Pick The Best Joints</string>
+    <string name="detail_night_games">If you are not a party animal but love some great music and bowl and want this at the wee hours of the night, we have had picked the best places to visit in Delhi at night for you which you can pick over party places in Delhi!\n\nThink of playing at little pool or go bowling in the night between 11 pm to 1pm with your friends and make it and night both remembering.</string>
+
+    <!--Location - Monkey Bar-->
+    <string name="title_games_location_one">Monkey Bar</string>
+    <string name="usp_games_location_one">Pool and Booze.</string>
+    <string name="address_games_location_one">Connaught Place</string>
+    <string name="timings_games_location_one">2:00 pm to 12:00 am</string>
+
+    <!--Location - BluO-->
+    <string name="title_games_location_two">BluO</string>
+    <string name="usp_games_location_two">Best place in Delhi for Bowling.</string>
+    <string name="address_games_location_two">Ambience Mall, Gurgaon</string>
+
+    <!--Location - Underdoggs Sports Bar & Grill-->
+    <string name="title_games_location_three">Underdoggs Sports Bar &amp; Grill</string>
+    <string name="usp_games_location_three">Pool and live screening of matches.</string>
+    <string name="address_games_location_three">Golf Course Road, Gurgaon</string>
+    <string name="timings_games_location_three">11:00 am to 1:00 am</string>
+
+    <!--Travel Items-->
+
+    <!--Airport - Indira Gandhi International Airport-->
+    <string name="title_airport_IGI">Indira Gandhi International Airport</string>
+    <string name="about_airport_IGI">It is the main airport in Delhi city. Very important and big airport that serves both international and domestic flights.</string>
+    <string name="location_airport_IGI">Indira Gandhi International Airport, Delhi 110037</string>
+
+    <!--Airport - Safdarjung Airport-->
+    <string name="title_airport_safdarjung">Safdarjung Airport</string>
+    <string name="about_airport_safdarjung">It is used for diplomats, government and VIPs.</string>
+    <string name="location_airport_safdarjung">Safdarjung Airport, Delhi 110003</string>
+
+    <!--Railway Station - New Delhi Railway Station-->
+    <string name="title_railway_station_NDLS">New Delhi Railway Station</string>
+    <string name="about_railway_station_NDLS">New Delhi railway station (station code: NDLS) is the main railway station in Delhi.\n\nMost eastbound and southbound trains originate at New Delhi railway station, however, some important trains to other parts of the country also touch/originate at this station</string>
+    <string name="location_railway_station_NDLS">New Delhi Railway Station, Delhi 110006</string>
+
+    <!--Railway Station - Old Delhi Railway Station-->
+    <string name="title_railway_station_DLI">Old Delhi Railway Station</string>
+    <string name="about_railway_station_DLI">Delhi Junction, also known as Old Delhi railway station (Station Code: DLI), is the oldest railway station of Delhi city and a junction station.</string>
+    <string name="location_railway_station_DLI">Old Delhi Railway Station (DLI), Shyama Prasad Mukherjee Marg, Mori Gate, New Delhi, Delhi 110006</string>
+
+    <!--Railway Station - Hazrat Nizamuddin Station-->
+    <string name="title_railway_station_NZM">Hazrat Nizamuddin Station</string>
+    <string name="about_railway_station_NZM">Hazrat Nizamuddin railway station (Station Code: NZM) is a railway station in South Delhi.\n\nHazrat Nizamuddin railway station connects all the major cities and was developed to ease congestion on New Delhi\n\nIt originates and terminates Rajdhani Express trains going towards Bengaluru, Chennai, Secunderabad, Madgaon, Mumbai and Thiruvananthapuram.</string>
+    <string name="location_railway_station_NZM">Hazrat Nizamuddin Railway Station</string>
+
+    <!--Railway Station - Anand Vihar Terminal Station-->
+    <string name="title_railway_station_ANVT">Anand Vihar Terminal Station</string>
+    <string name="about_railway_station_ANVT">Anand Vihar Terminal (Station Code: ANVT) is a railway station in the Anand Vihar locality of Delhi.</string>
+    <string name="location_railway_station_ANVT">Anand Vihar Terminal Railway station, Uttar Pradesh 110092</string>
+
+    <!--Railway Station - Delhi Sarai Rohilla Station-->
+    <string name="title_railway_station_DEE">Delhi Sarai Rohilla Station</string>
+    <string name="about_railway_station_DEE">Delhi Sarai Rohilla Terminal railway station (Station Code: DEE) is situated about 4 kilometres from Old Delhi Railway Station (Station Code: DLI).\n\nMany trains from Delhi to Haryana, Punjab, Rajasthan and Gujarat stop at this station.</string>
+    <string name="location_railway_station_DEE">Delhi Sarai Rohilla, Guru Gobind Singh Marg, Railway Officers Colony, Sarai Rohilla, New Delhi, Delhi 110005</string>
+</resources>

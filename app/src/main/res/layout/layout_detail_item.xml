@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:background="@drawable/ripple_detail_item"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_default"
+        tools:ignore="UselessParent">
+
+        <!--Location Title-->
+        <TextView
+            android:id="@+id/item_detail_title"
+            style="@style/BasicItemMainStyle"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            tools:text="@string/title_connaught_place_location_one" />
+
+        <!--Label Popular-->
+        <TextView
+            android:id="@+id/label_item_detail_popular"
+            style="@style/ExtraDetailsMainStyle"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="@string/label_popular"
+            app:drawableEndCompat="@drawable/ic_popular" />
+
+        <!--Location is popular for.-->
+        <TextView
+            android:id="@+id/item_detail_popular"
+            style="@style/BasicItemMainStyle"
+            tools:text="@string/must_haves_connaught_place_location_one" />
+
+        <!--Label Average Cost-->
+        <TextView
+            android:id="@+id/label_item_detail_cost"
+            style="@style/ExtraDetailsMainStyle"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="@string/label_cost"
+            app:drawableEndCompat="@drawable/ic_fee" />
+
+        <!--Average Cost-->
+        <TextView
+            android:id="@+id/item_detail_avg_cost"
+            style="@style/BasicItemMainStyle"
+            tools:text="@string/avg_cost_connaught_place_location_one" />
+
+        <!--Label Average Cost-->
+        <TextView
+            android:id="@+id/label_item_detail_timing"
+            style="@style/ExtraDetailsMainStyle"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="@string/label_timings"
+            app:drawableEndCompat="@drawable/ic_clock" />
+
+        <!--Average Cost-->
+        <TextView
+            android:id="@+id/item_detail_timing"
+            style="@style/BasicItemMainStyle"
+            tools:text="@string/timings_connaught_place_location_one" />
+
+    </LinearLayout>
+
+</FrameLayout>

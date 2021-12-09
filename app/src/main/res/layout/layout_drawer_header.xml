@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:contentDescription="@string/description_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_image_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/header_image" />
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/app_name" />
+
+    <TextView
+        style="@style/BasicItemMainStyle"
+        android:layout_marginStart="@dimen/margin_default"
+        android:text="@string/header_place" />
+</LinearLayout>

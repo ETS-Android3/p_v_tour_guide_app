@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--Travel background container.-->
+    <LinearLayout
+        android:id="@+id/item_travel_container"
+        style="@style/BasicItemMainStyle"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_default"
+        tools:background="@drawable/ripple_railway_station">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--Travel Title-->
+            <TextView
+                android:id="@+id/item_travel_title"
+                style="@style/BasicItemMainStyle"
+                android:textSize="@dimen/text_size_title"
+                android:textStyle="bold"
+                tools:text="New Delhi Railway Station" />
+
+            <!--Travel About-->
+            <TextView
+                android:id="@+id/item_travel_about"
+                style="@style/BasicItemMainStyle"
+                android:layout_marginTop="@dimen/margin_small"
+                tools:text="@string/about_railway_station_NDLS" />
+
+        </LinearLayout>
+
+        <!--Travel Image-->
+        <ImageView
+            android:id="@+id/item_travel_image"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/description_image"
+            tools:src="@drawable/ic_train" />
+
+    </LinearLayout>
+
+</FrameLayout>

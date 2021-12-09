@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:letterSpacing">@fraction/letter_spacing</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!--View with width set as "match_parent" and height set as "wrap_content".-->
+    <style name="BasicItemMainStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Place Image-->
+    <style name="ImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!--Place Title-->
+    <style name="TitleStyle" parent="BasicItemMainStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/padding_default</item>
+        <item name="android:paddingEnd">@dimen/padding_default</item>
+        <item name="android:paddingTop">@dimen/padding_default</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <!--Place Description Main-->
+    <style name="DescriptionMainStyle" parent="DescriptionDetailStyle">
+        <item name="android:maxLines">@integer/max_lines</item>
+    </style>
+
+    <!--Place Description Detail-->
+    <style name="DescriptionDetailStyle" parent="BasicItemMainStyle">
+        <item name="android:paddingStart">@dimen/padding_default</item>
+        <item name="android:paddingEnd">@dimen/padding_default</item>
+        <item name="android:paddingBottom">@dimen/padding_default</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--Main Extra Details-->
+    <style name="ExtraDetailsMainStyle" parent="BasicItemMainStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin_mini</item>
+        <item name="android:drawablePadding">@dimen/margin_small</item>
+        <item name="android:textSize">@dimen/text_size_title_mini</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Main Timings and Entry Fee-->
+    <style name="TimingsEntryFeeMainStyle" parent="BasicItemMainStyle">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--Linear Layout Vertical-->
+    <style name="LinearLayoutVerticalStyle" parent="BasicItemMainStyle">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--Chip Style-->
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipStartPadding">8dp</item>
+        <item name="chipEndPadding">8dp</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="closeIconVisible">false</item>
+        <item name="iconStartPadding">@dimen/padding_small</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+</resources>
