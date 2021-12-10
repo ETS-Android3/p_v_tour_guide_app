@@ -33,8 +33,10 @@ public class PlacesFragment extends Fragment {
      */
     private int category;
 
+    // Used to restore the list of Places to visit across orientation changes.
     private static final String KEY_PLACES = "places";
 
+    // Stores the places to visit.
     private ArrayList<Place> mPlaces;
 
     // Required Default Constructor.

@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Defines a Place.
+ * Defines a Place one can visit in Delhi.
  */
 public class Place implements Parcelable {
 
@@ -16,26 +16,40 @@ public class Place implements Parcelable {
      */
     private final int category;
 
-    // Stores the String resource ID containing the name info. for this Place.
+    // Stores a String resource ID containing the name info. for this Place.
     private final int title;
 
-    // Stores the String resource ID containing detail info. for this Place.
+    // Stores a String resource ID containing detail info. for this Place.
     private final int detail;
 
     /*
-     * Stores the String resource ID containing timings info. about when this Place is open and
+     * Stores a String resource ID containing timings info. about when this Place is open and
      * closed.
      */
     private int timings;
 
-    // Stores the String resource ID containing entry fee required to visit this Place.
+    // Stores a String resource ID containing entry fee required to visit this Place.
     private int entryFee;
 
-    // Stores the drawable resource ID containing an image for this Place.
+    // Stores a drawable resource ID containing an image for this Place.
     private final int image;
 
+    /*
+     * Stores a String resource ID containing the location of the nearest Metro station from this
+     * Place.
+     */
     private int nearestMetro;
+
+    /*
+     * Stores a String resource ID containing the location of the nearest Hospital from this
+     * Place.
+     */
     private int nearestHospital;
+
+    /*
+     * Stores a String resource ID containing the location of the nearest Police Station from this
+     * Place.
+     */
     private int nearestPoliceStation;
 
     /**
@@ -130,14 +144,25 @@ public class Place implements Parcelable {
         return entryFee;
     }
 
+    /**
+     * @return String resource ID containing the location of the nearest Metro Station from this
+     * Place.
+     */
     public int getNearestMetro() {
         return nearestMetro;
     }
 
+    /**
+     * @return String resource ID containing the location of the nearest Hospital from this Place.
+     */
     public int getNearestHospital() {
         return nearestHospital;
     }
 
+    /**
+     * @return String resource ID containing the location of the nearest Police Station from this
+     * Place.
+     */
     public int getNearestPoliceStation() {
         return nearestPoliceStation;
     }

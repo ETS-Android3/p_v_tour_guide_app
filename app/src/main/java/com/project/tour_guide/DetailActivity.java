@@ -3,6 +3,7 @@ package com.project.tour_guide;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
+
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -15,11 +16,13 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.project.tour_guide.adapters.DetailScreenAdapter;
 import com.project.tour_guide.data.AppData;
 import com.project.tour_guide.data.Location;
 import com.project.tour_guide.data.Place;
 import com.project.tour_guide.databinding.ActivityDetailBinding;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

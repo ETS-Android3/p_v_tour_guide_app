@@ -4,24 +4,24 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Defines a Location.
+ * Defines a location of eating joints, movie theatres, gaming centres etc.
  */
 public class Location implements Parcelable {
 
-    // Stores the String resource ID containing the name info. for this Place.
+    // Stores a String resource ID containing the name info. for this Place.
     private final int title;
 
-    // Stores the String resource ID containing all options for "label".
+    // Stores a String resource ID containing all options for "label".
     private final int info;
 
-    // Stores the String resource ID containing average price to enter/eat at this Place.
+    // Stores a String resource ID containing average price to enter/eat at this Place.
     private final int avgPrice;
 
-    // Stores the String resource ID containing the address info. for this Place.
+    // Stores a String resource ID containing the address info. for this Place.
     private final int location;
 
     /*
-     * Stores the String resource ID containing timings info. about when this Place is open and
+     * Stores a String resource ID containing timings info. about when this Place is open and
      * closed.
      */
     private final int timings;
