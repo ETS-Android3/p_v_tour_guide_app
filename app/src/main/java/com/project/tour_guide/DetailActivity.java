@@ -174,19 +174,14 @@ public class DetailActivity extends AppCompatActivity {
             mBinding.detailItemChipStation.setOnClickListener(chipClickListener);
 
             // Set timings.
-            boolean timingsAvailable = CommonFunctionality.setText(this,
+            CommonFunctionality.setText(this,
                     mBinding.detailTimings, mBinding.detailLabelTimings,
                     mUserClickedPlace.getTimings());
 
             // Set Entry Fee.
-            boolean entryFeeAvailable = CommonFunctionality.setText(this,
+            CommonFunctionality.setText(this,
                     mBinding.detailFee, mBinding.detailLabelEntryFee,
                     mUserClickedPlace.getEntryFee());
-
-            // Hide Container if neither "Timings" or "Entry Fee" available.
-            if (!(timingsAvailable || entryFeeAvailable)) {
-                mBinding.detailLayoutContainer.setVisibility(View.GONE);
-            }
         } else {
             // Clicked Place is under "Places To Eat" or "Night Life" category.
 
